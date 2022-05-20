@@ -212,6 +212,7 @@ textarea {
   
 }
 .landing .text {
+  z-index: 2;
   flex: 1;
 }
 @media (max-width: 991px) {
@@ -385,7 +386,7 @@ textarea {
   width: 0;
   height: 0;
   transform: translate(-50%, -50%);
-  background-color: #f5c3b4;
+  background-color: #ffdbd1;
   z-index: -1;
   transition: var(--main-transition);
 }
@@ -606,7 +607,6 @@ textarea {
 .footer .box .logo {
   margin-bottom: 30px;
   width: 100px;
-  filter: brightness(0) invert(1);
 }
 .footer .box .social {
   display: flex;
