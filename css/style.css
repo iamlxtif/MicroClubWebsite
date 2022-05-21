@@ -723,6 +723,14 @@ textarea {
   display: flex;
   flex-wrap: wrap;
 }
+.inscription .form .content .connected{
+  z-index: 3;
+  background-color: #747474;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: linear 0.5s;
+}
 .inscription .image {
   background-size: cover;
   color: white;
